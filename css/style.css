@@ -53,3 +53,13 @@ body{
     color: #252525;
     font-size: 1.125em;
 }
+
+.header-menu li a::before{
+    content: '-';
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.header-menu:first-child a{
+    content: '';
+}
