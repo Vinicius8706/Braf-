@@ -75,6 +75,8 @@ body{
     clear: both;
 }
 
+
+
 /* FILTRO */
 
 .filtro{
@@ -85,6 +87,27 @@ body{
     padding: 20px; 
     float: left;
 }
+
+
+@media (min-width: 740px) and (max-width: 960px){
+    .container{
+        max-width: 720px;
+    }
+    .filtro{
+        width: 220px;
+    }
+}
+
+@media (max-width: 739px){
+    .container{
+        max-width: 300px;
+    }
+    .filtro{
+        display: none;
+    }
+}
+
+
 
 .filtro h2{
     font-size: 1.25em;
@@ -180,4 +203,18 @@ body{
     font-weight: bold;
     position: relative;
     top: -15px;
+}
+
+.produtos li h2{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.footer{
+    background: #e7e4d8;
+    text-align: center;
+    padding: 60px 0;
+    line-height: 1.4em;
+    font-size: 1.125em;
+    margin-top: 80px;
 }
